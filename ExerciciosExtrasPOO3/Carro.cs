@@ -10,7 +10,7 @@ namespace ExerciciosExtrasPOO3
     {
         private int NumeroPorta;
 
-        public void ExibirInfo()
+        public override void ExibirInfo()
         {
             base.ExibirInfo();
             Console.WriteLine($"Número de portas: {this.NumeroPorta}");

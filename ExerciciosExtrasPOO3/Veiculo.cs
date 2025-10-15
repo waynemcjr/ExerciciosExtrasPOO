@@ -12,7 +12,7 @@ namespace ExerciciosExtrasPOO3
         private string Modelo = string.Empty;
         private int Ano;
 
-        public void ExibirInfo()
+        public virtual void ExibirInfo()
         {
             Console.WriteLine($"Marca: {this.Marca}");
             Console.WriteLine($"Modelo: {this.Modelo}");

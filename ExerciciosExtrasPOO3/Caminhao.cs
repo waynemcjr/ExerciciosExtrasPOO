@@ -10,10 +10,10 @@ namespace ExerciciosExtrasPOO3
     {
         private int CapacidadeCarga;
 
-        public void ExibirInfo()
+        public override void ExibirInfo()
         {
             base.ExibirInfo();
-            Console.WriteLine($"Capacidade de carga: {this.CapacidadeCarga}");
+            Console.WriteLine($"Capacidade de carga: {this.CapacidadeCarga} kg");
         }
 
         public void setCapacidadeCarga(int CapacidadeCarga)

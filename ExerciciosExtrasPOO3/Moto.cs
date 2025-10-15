@@ -10,7 +10,7 @@ namespace ExerciciosExtrasPOO3
     {
         public int Cilindrada;
 
-        public void ExibirInfo()
+        public override void ExibirInfo()
         {
             base.ExibirInfo();
             Console.WriteLine($"Cilindrada: {this.Cilindrada}");
